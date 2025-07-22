@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 1rem;
+  padding: 1rem 35rem 1rem 35rem;
 }
 
 .login-card {
@@ -34,12 +34,16 @@
 .login-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
 }
 
 .input-group {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 0.5rem;
 }
 
@@ -62,6 +66,7 @@
   outline: none;
   border-color: #2563eb;
   background: white;
+  color: black;
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
